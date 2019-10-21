@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/about/about",
+    "pages/proife/proife"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我的小程序",
+    "backgroundColor": "yellow",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/assets/home.png",
+        "selectedIconPath": "assets/assets/home_active.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "分类",
+        "iconPath": "assets/assets/category.png",
+        "selectedIconPath": "assets/assets/category_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap28.json"
+}

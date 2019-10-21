@@ -1,0 +1,16 @@
+<!--pages/home/home.wxml-->
+<!-- 小程序数据绑定 -->
+<view>Hello {{name}}</view>
+<view wx:for="{{students}}">{{item.name}} {{item.age}}</view>
+<!-- 当前计数 -->
+<view>当前计数:{{couter}}</view>
+<button size="mini" bindtap="btnClick">+</button>
+<button size="mini" bindtap="BtnClick">-</button>
+<!-- 2第三种获取用户信息方法 -->
+<button size="mini"
+ open-type="getUserInfo"
+bindgetuserinfo="BtnhandleGetUserInfo">
+获取授权</button>
+<!-- 3第三种获取用户信息方法 -->
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
