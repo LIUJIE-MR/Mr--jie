@@ -12,5 +12,7 @@
 bindgetuserinfo="BtnhandleGetUserInfo">
 获取授权</button>
 <!-- 3第三种获取用户信息方法 -->
-<open-data type="userNickName"></open-data>
-<open-data type="userAvatarUrl"></open-data>
+<!-- <open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data> -->
+<view>知识点一</view>
+<view>哈哈</view>
